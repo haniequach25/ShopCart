@@ -114,6 +114,7 @@ a {
         justify-content: space-between;
         a {
             margin-left: 10px;
+            color: $font-color;
             &:hover {
                 color: $aquaColor;
             }

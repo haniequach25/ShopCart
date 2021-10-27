@@ -100,6 +100,7 @@ a {
 }
 .nav .nav-control a {
   margin-left: 10px;
+  color: #5f727f;
 }
 .nav .nav-control a:hover {
   color: #00bcd4;
