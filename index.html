@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop Cart</title>
+    <!-- Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/sass/style.css" />
+    <link rel="stylesheet" href="./assets/sass/responsive.css">
+  </head>
+  <body>
+    <header id="header" class="padding-content">
+      <div class="container">
+        <div class="header-contact">
+          <span class="header-contact-icon">
+            <i class="bx bx-headphone"></i>
+          </span>
+          <a href="tel:+1916-85-2235" class="header-contact--phone"
+            >+1 916-85-2235</a
+          >
+        </div>
+        <div class="header-socials">
+          <a href="#">
+            <i class="bx bxl-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="bx bxl-facebook"></i>
+          </a>
+          <a href="#">
+            <i class="bx bxl-linkedin"></i>
+          </a>
+          <a href="#">
+            <i class="bx bxl-google-plus"></i>
+          </a>
+          <a href="#">
+            <i class="bx bxl-instagram"></i>
+          </a>
+          <a href="#">
+            <i class="bx bxl-youtube" style="color: red;"></i>
+          </a>
+          <a href="#">
+            <i class="bx bxl-pinterest-alt"></i>
+          </a>
+        </div>
+        <div class="header-menu hide">
+          <a href="#"><i class='bx bx-chevron-right'></i> My Account</a>
+          <a href="#"><i class='bx bx-chevron-right'></i> FAQ</a>
+          <a href="#"><i class='bx bx-chevron-right'></i> Contact Us</a>
+          <a href="#"><i class='bx bx-chevron-right'></i> Newsletter Signup</a>
+          <a href="#"><i class='bx bx-chevron-right'></i> Shipping Terms</a>
+        </div>
+        <div class="header-wishlist">
+          <a href="">My Wishlist</a>
+        </div>
+      </div>
+    </header>
+    <nav class="nav padding-content">
+      <div class="container">
+
+        <a href="#" class="nav-logo">
+          <img src="./assets/img/logo.png" alt="logo"/>
+          thegem
+        </a>
+
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#" class="nav-link">home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">pages</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">portfolios</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">shop</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">features</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">elements</a>
+          </li>
+        </ul>
+        <div class="nav-control">
+          <a href="#">
+            <img src="./assets/img/language.png" alt="language"/>
+          </a>
+          <a href="#" class="nav-search">
+            <i class="bx bx-search"></i>
+          </a>
+          <a href="#" class="nav-cart">
+            <div>
+              <i class="bx bx-basket"></i>
+            </div>
+            <div class="arrow-left"></div>
+            <div class="nav-qty">
+              2
+            </div>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <main class="main">
+      <div class="main-header padding-content">
+        <div class="container">
+          <div class="main-item">
+            <div class="main-cart-user">
+              <h1>woo</h1>
+              <span>cart</span>
+            </div>
+            <div class="main-cart-link">
+              <a href="#">Home</a>
+              <i class='bx bx-right-arrow-alt'></i>
+
+              <a href="#">Breadcrumbs Example</a>
+              <i class='bx bx-right-arrow-alt'></i>
+
+              <a href="#">Second Level</a>
+              <i class='bx bx-right-arrow-alt'></i>
+
+              <a href="#" class="current-link">Third Level</a>
+            </div>
+          </div>
+          <div class="main-item">
+            <i class="bx bx-cart cart-icon"></i>
+          </div>
+        </div>
+      </div>
+      <div class="main-content padding-content">
+        <div class="container">
+          <div class="main-product">
+            <h3>
+              you have <span class="product-item">6 items</span> in your cart
+            </h3>
+            <table class="product-table" cellspacing="0" cellpadding="0">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th align="left">product</th>
+                  <th>price</th>
+                  <th>quantity</th>
+                  <th>total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <span class="product-delete"
+                      ><i class="bx bxs-x-circle"></i
+                    ></span>
+                  </td>
+                  <td>
+                    <img
+                      src="./assets/img/product-img.png"
+                      alt=""
+                      class="product-img"
+                    />
+                    <a href="#" class="product-name"
+                      >Lorem ipsum dolor sit amet
+                      <span class="product-details hide-on-mobile"
+                        >Size: Large, Color: Black</span
+                      ></a
+                    >
+                  </td>
+                  <td>$35.99</td>
+                  <td>
+                    <div class="amount">
+                      <div class="button-amount">-</div>
+                      <input type="text" name="" id="" value="1">
+                      <div class="button-amount">+</div>
+                    </div>
+                  </td>
+                  <td>$35.99</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="product-delete"
+                      ><i class="bx bxs-x-circle"></i
+                    ></span>
+                  </td>
+                  <td>
+                    <img
+                      src="./assets/img/product-img.png"
+                      alt=""
+                      class="product-img"
+                    />
+                    <a href="#" class="product-name"
+                      >Consectetur adipisicing
+                    </a>
+                  </td>
+                  <td>$1285.99</td>
+                  <td>
+                    <div class="amount">
+                      <div class="button-amount">-</div>
+                      <input type="text" name="" id="" value="1">
+                      <div class="button-amount">+</div>
+                    </div>
+                  </td>
+                  <td>$1285.99</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="product-delete"
+                      ><i class="bx bxs-x-circle"></i
+                    ></span>
+                  </td>
+                  <td>
+                    <img
+                      src="./assets/img/product-img.png"
+                      alt=""
+                      class="product-img"
+                    />
+                    <a href="#" class="product-name"
+                      >Elit sed do eiusmod
+                      <span class="product-details hide-on-mobile">Size: Large</span></a
+                    >
+                  </td>
+                  <td>$89.99</td>
+                  <td>
+                    <div class="amount">
+                      <div class="button-amount">-</div>
+                      <input type="text" name="" id="" value="1">
+                      <div class="button-amount">+</div>
+                    </div>
+                  </td>
+                  <td>$89.99</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="product-delete"
+                      ><i class="bx bxs-x-circle"></i
+                    ></span>
+                  </td>
+                  <td>
+                    <img
+                      src="./assets/img/product-img.png"
+                      alt=""
+                      class="product-img"
+                    />
+                    <a href="#" class="product-name"
+                      >Tempor incididunt ut labore
+                    </a>
+                  </td>
+                  <td>$12.00</td>
+                  <td>
+                    <div class="amount">
+                      <div class="button-amount">-</div>
+                      <input type="text" name="" id="" value="1">
+                      <div class="button-amount">+</div>
+                    </div>
+                  </td>
+                  <td>$12.00</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="product-delete"
+                      ><i class="bx bxs-x-circle"></i
+                    ></span>
+                  </td>
+                  <td>
+                    <img
+                      src="./assets/img/product-img.png"
+                      alt=""
+                      class="product-img"
+                    />
+                    <a href="#" class="product-name">Et dolore magna aliqua </a>
+                  </td>
+                  <td>$158.25</td>
+                  <td>
+                    <div class="amount">
+                      <div class="button-amount">-</div>
+                      <input type="text" name="" id="" value="1">
+                      <div class="button-amount">+</div>
+                    </div>
+                  </td>
+                  <td>$158.25</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="product-control">
+              <div class="product-coupon">
+                <input type="text" placeholder="Enter Coupon Code Here..." />
+                <a href="#" class="btn-coupon">apply</a>
+              </div>
+              <div class="product-remote">
+                <a href="#" class="btn-remote">update cart</a>
+                <a href="#" class="btn-remote">
+                  <img src="./assets/img/checkout.png" alt="" />
+                  checkout
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="main-bill">
+            <div class="main-item">
+              <h3>calculate Shipping</h3>
+              <form action="" class="form-control">
+                <div class="main-full">
+                  <div class="dropdown">
+                    <div class="dropdown-select">
+                      Select Your Country
+                      <i class="bx bxs-chevron-down"></i>
+                    </div>
+                    <div class="dropdown-list">
+                      <div class="dropdown-item">VietNam</div>
+                      <div class="dropdown-item">Brazil</div>
+                      <div class="dropdown-item">Australia</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="main-full">
+                  <div class="main-half">
+                    <input
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="State / Country"
+                    />
+                  </div>
+                  <div class="main-half">
+                    <input
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Postcode / Zip"
+                    />
+                  </div>
+                </div>
+                <div class="main-full">
+                  <a href="#" class="btn-coupon">update totals</a>
+                </div>
+              </form>
+            </div>
+            <div class="main-item">
+              <h3>cart totals</h3>
+              <div class="main-full">
+                <table class="bill-table" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td>Subtotal</td>
+                      <td>$1285.99</td>
+                    </tr>
+                    <tr>
+                      <td>Shipping And Handling</td>
+                      <td>
+                        <ul class="bill-list">
+                          <li class="bill-item"><input type="radio" name="Shipping" id="" disabled checked>Flat Rate: $3.99</li>
+                          <li class="bill-item"><input type="radio" name="Shipping" id="" disabled>Free Shipping</li>
+                          <li class="bill-item"><input type="radio" name="Shipping" id="" disabled>Flat Rate: $12.99</li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Total</td>
+                      <td>$2015.00</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="main-related">
+            <div class="related-title">
+              <h3>you may be interested in</h3>
+              <div></div>
+            </div>
+            <div class="related-products">
+              <div class="main-item">
+                <div class="main-wrapper">
+                  <img src="./assets/img/product-related.png" alt="" />
+                  <div class="wrapper-details">
+                    <h4>Denim Classy Shorts</h4>
+                    <p>$35.00–$89.99</p>
+                  </div>
+                </div>
+              </div>
+              <div class="main-item">
+                <div class="main-sale">
+                  <span>sale!</span>
+                </div>
+                <div class="main-new">
+                  <span>new</span>
+                </div>
+                <div class="main-wrapper">
+                  <img src="./assets/img/product-related.png" alt="" />
+                  <div class="wrapper-details">
+                    <h4>Golden Heels</h4>
+                    <p>$89.99</p>
+                  </div>
+                </div>
+              </div>
+              <div class="main-item">
+                <div class="main-wrapper">
+                  <img src="./assets/img/product-related.png" alt="" />
+                  <div class="wrapper-details">
+                    <h4>Black Impression</h4>
+                    <p>$259.99</p>
+                  </div>
+                </div>
+              </div>
+              <div class="main-item">
+                <div class="main-wrapper">
+                  <img src="./assets/img/product-related.png" alt="" />
+                  <div class="wrapper-details">
+                    <h4>Denim Classy Shorts</h4>
+                    <p>$35.00–$89.99</p>
+                  </div>
+                </div>
+              </div>
+              <div class="main-item">
+                <div class="main-wrapper">
+                  <img src="./assets/img/product-related.png" alt="" />
+                  <div class="wrapper-details">
+                    <h4>Golden Heels</h4>
+                    <p>$89.99</p>
+                  </div>
+                </div>
+              </div>
+              <div class="main-item">
+                <div class="main-wrapper">
+                  <img src="./assets/img/product-related.png" alt="" />
+                  <div class="wrapper-details">
+                    <h4>Black Impression</h4>
+                    <p>$259.99</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./assets/javascript/main.js"></script>
+  </body>
+</html>

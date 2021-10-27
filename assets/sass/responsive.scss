@@ -1,0 +1,167 @@
+@media only screen and (max-width: 900px) {
+    .padding-content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #header {
+        .container {
+            justify-content: center;
+        }
+    }
+
+    .nav {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        .container {
+            flex-direction: column;
+        }
+        .nav-logo {
+            justify-content: center;
+            align-items: center;
+            font-size: 27px;
+            padding: 10px;
+        }
+    
+        .nav-list {
+            display: flex;
+            list-style: none;
+            flex-flow: wrap column;
+            align-items: center;
+            .nav-item {
+                padding: 10px;
+                &:nth-child(5){
+                    .nav-link {
+                        outline: none;
+                    }
+                }
+            }
+        }
+    
+        .nav-control {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .product-control {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        .product-coupon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            input {
+                width: 100%!important;
+                margin-left: 0!important;
+                text-align: center;
+            }
+            a {
+                width: 100%;
+                margin-left: 0!important;
+            }
+        }
+        .product-remote {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            a {
+                width: 100%;
+                align-self: stretch;
+                margin: 0!important;
+                &:nth-child(2) {
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+    .main-product {
+        table {
+            th,td {
+                font-size: 12px!important;
+                &:nth-child(1) {
+                    width: 60px!important;
+                    font-size: 20px!important;
+                }
+            }
+            td {
+                &:nth-child(2) {
+                    max-width: 70%;
+                    display: flex;
+                    margin-left: 0!important;
+                    align-items: center;
+                    a {
+                        span {
+                            font-size: 12px!important;
+                        }
+                    }
+                }
+                img {
+                    padding-right: 20px;
+                }
+                .amount {
+                    color: #5f727f;
+                    display: flex;
+                    input {
+                        color: inherit;
+                        width: 30px!important;
+                        padding-left: 10px!important;
+                    }
+                    .button-amount {
+                        width: 20px!important;
+                        height: 20px!important;
+                        padding: 1px 8px!important;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    .main-bill {
+        .main-item { 
+            width: 100%;
+        }
+        .btn-coupon {
+            width: 100%!important;
+            text-align: center;
+        }
+    }
+
+    .main-related {
+        .related-products {
+            .main-item {
+                margin: 10px;
+                .main-wrapper {
+                    width: 160px;
+                    height: 286px;
+                    img {
+                        width: 100%;
+                        height: 200px;
+                        cursor: pointer;
+                    }
+                    .wrapper-details {
+                        
+                        h4, p {
+                            font-size: 14px;
+                            font-weight: 400;
+                            text-align: center;
+                        }
+                        p {
+                            position: absolute;
+                            width: 100%;
+                            bottom: 20px;
+                            left: 50%;
+                            transform: translate(-50%, 0);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
